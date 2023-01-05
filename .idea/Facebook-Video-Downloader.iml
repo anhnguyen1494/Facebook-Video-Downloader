@@ -1,8 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/http-client-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php73" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/service-contracts" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP" type="php">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/composer" />
+          <root url="file://$MODULE_DIR$/vendor/psr/container" />
+          <root url="file://$MODULE_DIR$/vendor/psr/log" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/deprecation-contracts" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/http-client" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/http-client-contracts" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-php73" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-php80" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/service-contracts" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/composer" />
+          <root url="file://$MODULE_DIR$/vendor/psr/container" />
+          <root url="file://$MODULE_DIR$/vendor/psr/log" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/deprecation-contracts" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/http-client" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/http-client-contracts" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-php73" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-php80" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/service-contracts" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>

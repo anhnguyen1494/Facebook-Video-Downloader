@@ -1,7 +1,12 @@
 html {
 	font-size: 14px;
 }
-
+body{
+	background: url("bg.jpg");
+}
+.main{
+	background-color: rgba(0, 0, 0, 0.71);
+}
 @media (min-width: 768px) {
 	html {
 		font-size: 16px;
